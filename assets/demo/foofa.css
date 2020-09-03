@@ -1,6 +1,6 @@
 /* change the background color */
 .navbar-custom {
-    background-color: #3e8acc !important;;
+    background-color: #3e8acc !important;
 }
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
@@ -19,33 +19,59 @@
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:focus .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
-    color: #ffffff;
+    color : white;
 }
 
-.carousel-caption {
-    font-weight: lighter;
-    text-align: left;
-
-}
 
 @media screen and (min-width: 1200px)
 {
     .carousel-caption {
-        margin-bottom: -5%
+        margin-bottom: -3%
     }
 
     .carousel-caption h2 {
+        text-align: left;
         font-size : 50px !important;
+    }
+
+    .carousel-caption h3 {
+        text-align: right;
+        font-size : 30px !important;
     }
 }
 
-@media screen and (max-width:1199px) and (min-width:577px)
+@media screen and (max-width:1199px) and (min-width:991px)
 {
     .carousel-caption {
-        margin-bottom: -20%
+        margin-bottom: -6%
     }
 
     .carousel-caption h2 {
+        text-align: left;
+        font-size : 30px !important;
+    }
+}
+
+@media screen and (max-width:990px) and (min-width:768px)
+{
+    .carousel-caption {
+        margin-bottom: -10%
+    }
+
+    .carousel-caption h2 {
+        text-align: left;
+        font-size : 30px !important;
+    }
+}
+
+@media screen and (max-width:767px) and (min-width:577px)
+{
+    .carousel-caption {
+        margin-bottom: -25%
+    }
+
+    .carousel-caption h2 {
+        text-align: left;
         font-size : 30px !important;
     }
 }
