@@ -1,0 +1,32 @@
+/* change the background color */
+.navbar-custom {
+    background-color: #3e8acc !important;;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,.8);
+}
+/* change the link color */
+.navbar-custom .navbar-nav  {
+    color: rgba(255,255,255,.8);
+}
+
+.nav-link {
+    color : white;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+@media screen and (max-width: 576px)
+{    .carousel-caption {
+    bottom: 10px !important;
+}
+    .carousel-caption h2 {
+        font-size : 30px !important;
+    }
+}
