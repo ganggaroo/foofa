@@ -22,71 +22,112 @@
     color : white;
 }
 
+.carousel-caption {
+    height: 20%;
+    background-color: #380B61;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-bottom: 10%;
+    border-radius: 10px;
+}
+
 
 @media screen and (min-width: 1200px)
 {
-    .carousel-caption {
-        margin-bottom: -3%
-    }
-
     .carousel-caption h2 {
         text-align: left;
         font-size : 50px !important;
+        margin-top: 0%;
     }
 
     .carousel-caption h3 {
         text-align: right;
         font-size : 30px !important;
+        margin-top: -2%;
     }
+
+    #carouselExampleIndicators{
+        height: 42em;
+    }
+
 }
 
 @media screen and (max-width:1199px) and (min-width:991px)
 {
-    .carousel-caption {
-        margin-bottom: -6%
-    }
-
     .carousel-caption h2 {
         text-align: left;
         font-size : 30px !important;
+        margin-top: 0%;
+    }
+
+    .carousel-caption h3 {
+        text-align: right;
+        font-size : 20px !important;
+        margin-top: 0%;
+    }
+
+    #carouselExampleIndicators{
+        height: 35em;
     }
 }
 
 @media screen and (max-width:990px) and (min-width:768px)
 {
-    .carousel-caption {
-        margin-bottom: -10%
-    }
-
     .carousel-caption h2 {
         text-align: left;
-        font-size : 30px !important;
+        font-size : 25px !important;
+        margin-top: -2%;
+    }
+
+    .carousel-caption h3 {
+        text-align: right;
+        font-size : 18px !important;
+        margin-top: 0%;
+    }
+
+    #carouselExampleIndicators{
+        height: 25em;
     }
 }
 
 @media screen and (max-width:767px) and (min-width:577px)
 {
-    .carousel-caption {
-        margin-bottom: -25%
-    }
-
     .carousel-caption h2 {
         text-align: left;
-        font-size : 30px !important;
+        font-size : 20px !important;
+        margin-top: -4%;
+    }
+
+    .carousel-caption h3 {
+        text-align: right;
+        font-size : 13px !important;
+        margin-top: 0%;
+    }
+
+    #carouselExampleIndicators{
+        height: 20em;
     }
 }
 
 @media screen and (max-width: 576px)
-{    .carousel-caption {
-    bottom: -30% !important;
-}
+{
+    .carousel-caption {
+        margin-bottom: 0%;
+    }
+
     .carousel-caption h2 {
-        color : red;
-        font-size : 30px !important;
+        text-align: left;
+        font-size : 12px !important;
+        margin-top: -1%;
     }
 
     .carousel-caption h3 {
-        color : red;
-        font-size : 20px !important;
+        text-align: right;
+        font-size : 8px !important;
+        margin-top: 0%;
+    }
+
+    #carouselExampleIndicators{
+        height: 18em;
     }
 }
