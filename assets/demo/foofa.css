@@ -22,11 +22,45 @@
     color: #ffffff;
 }
 
-@media screen and (max-width: 576px)
-{    .carousel-caption {
-    bottom: 10px !important;
+.carousel-caption {
+    font-weight: lighter;
+    text-align: left;
+
 }
+
+@media screen and (min-width: 1200px)
+{
+    .carousel-caption {
+        margin-bottom: -5%
+    }
+
+    .carousel-caption h2 {
+        font-size : 50px !important;
+    }
+}
+
+@media screen and (max-width:1199px) and (min-width:577px)
+{
+    .carousel-caption {
+        margin-bottom: -20%
+    }
+
     .carousel-caption h2 {
         font-size : 30px !important;
+    }
+}
+
+@media screen and (max-width: 576px)
+{    .carousel-caption {
+    bottom: -30% !important;
+}
+    .carousel-caption h2 {
+        color : red;
+        font-size : 30px !important;
+    }
+
+    .carousel-caption h3 {
+        color : red;
+        font-size : 20px !important;
     }
 }
