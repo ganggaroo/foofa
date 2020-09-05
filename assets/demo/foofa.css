@@ -115,9 +115,11 @@ div[id^="slide"]{
 div[id^="slide"] .title h3{
     font-family: "NanumSquare";
     font-weight: bold;
+    /**
     width: 100%;
     line-height: 0.1em;
     margin: 1px 0 20px;
+    */
 }
 
 div[id^="slide"] .title h3 span {
@@ -130,19 +132,19 @@ div[id^="slide"] .row h4 {
     font-size: 20px;
 }
 
-#slide01 .title h3{
+#slide01 .title1 h3{
     border-bottom: 3px solid #0B6121;
 }
 
-#slide02 .title h3{
+#slide02 .title1 h3{
     border-bottom: 3px solid #0000FF;
 }
 
-#slide03 .title h3{
+#slide03 .title1 h3{
     border-bottom: 3px solid #DF0101;
 }
 
-#slide04 .title h3{
+#slide04 .title1 h3{
     border-bottom: 3px solid #FFFF00;
 }
 
