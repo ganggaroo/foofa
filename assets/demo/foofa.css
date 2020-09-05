@@ -254,17 +254,13 @@
     .carousel-caption {
         position: relative;
         width: 72%;
-        height: 15%;
+        height: 10%;
         left : 15%;
-        top: 30%;
+        top: 25%;
         background-color: #380B61;
         padding-left: 1%;
         padding-right: 1%;
         border-radius: 10px;
-    }
-
-    .carousel-caption {
-        margin-bottom: 0%;
     }
 
     .carousel-caption h2 {
@@ -282,6 +278,15 @@
     #carouselExampleIndicators{
         height: 18em;
     }
+}
+
+.logo{
+    background : url("../img/foofa_fulllogo_white.png");
+    background-size: cover;
+    display: inline-block;
+    vertical-align: bottom;
+    height: 32px;
+    width: 100px;
 }
 
 .icon-group{
