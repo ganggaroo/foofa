@@ -131,11 +131,19 @@ div[id^="slide"] .row h4 {
 }
 
 #slide01 .title h3{
-    border-bottom: 2px solid #0B6121;
+    border-bottom: 3px solid #0B6121;
 }
 
 #slide02 .title h3{
-    border-bottom: 2px solid #0000FF;
+    border-bottom: 3px solid #0000FF;
+}
+
+#slide03 .title h3{
+    border-bottom: 3px solid #DF0101;
+}
+
+#slide04 .title h3{
+    border-bottom: 3px solid #FFFF00;
 }
 
 
