@@ -1,8 +1,10 @@
 @import url('https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
 @import url('https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css');
+@import url('http://fonts.googleapis.com/earlyaccess/nanumbrushscript.css');
 /*
  NanumSquareRound
  NanumSquare
+ Nanum Brush Script
 */
 
 /* change the background color */
@@ -58,16 +60,6 @@
     font-family: "NanumSquareRound";
 }
 
-.title h2{
-    font-family: "NanumSquare";
-}
-
-.list-group-item {
-    margin-left: 10%;
-    font-family: "NanumSquareRound";
-    font-size: 30px;
-    font-weight: bold;
-}
 
 .carousel .carousel-item {
     width: 100%;
@@ -88,9 +80,30 @@
     border-radius: 10px;
 }
 
+#main-phrase {
+    background-color: #0B0B61;
+    display: block;
+    width: 100%;
+    position: relative;
+    color: white;
+}
 
-@media screen and (min-width: 1200px)
+
+#main-phrase h2{
+    font-family: "NanumSquare";
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#main-phrase h3{
+    font-family: "NanumSquareRound";
+    font-weight: bold;
+    font-size: 25px;
+}
+
+@media screen and (min-width: 1201px)
 {
+
     .carousel .carousel-item {
         width: 100%;
         height: 90vh;
@@ -101,7 +114,7 @@
     .carousel-caption {
         position: relative;
         width: 60%;
-        min-height: 1%;
+        height: 22%;
         left : 20%;
         top: 30%;
         background-color: #380B61;
@@ -125,10 +138,9 @@
     #carouselExampleIndicators{
         height: 42em;
     }
-
 }
 
-@media screen and (max-width:1199px) and (min-width:991px)
+@media screen and (max-width:1200px) and (min-width:993px)
 {
     .carousel .carousel-item {
         width: 100%;
@@ -164,9 +176,21 @@
     #carouselExampleIndicators{
         height: 35em;
     }
+
+    #main-phrase h2{
+        font-family: "NanumSquare";
+        font-weight: bold;
+        font-size: 35px;
+    }
+
+    #main-phrase h3{
+        font-family: "NanumSquareRound";
+        font-weight: bold;
+        font-size: 25px;
+    }
 }
 
-@media screen and (max-width:990px) and (min-width:768px)
+@media screen and (max-width:992px) and (min-width:769px)
 {
     .carousel .carousel-item {
         width: 100%;
@@ -202,9 +226,21 @@
     #carouselExampleIndicators{
         height: 25em;
     }
+
+    #main-phrase h2{
+        font-family: "NanumSquare";
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    #main-phrase h3{
+        font-family: "NanumSquareRound";
+        font-weight: bold;
+        font-size: 20px;
+    }
 }
 
-@media screen and (max-width:767px) and (min-width:577px)
+@media screen and (max-width:768px) and (min-width:576px)
 {
     .carousel .carousel-item {
         width: 100%;
@@ -240,9 +276,22 @@
     #carouselExampleIndicators{
         height: 20em;
     }
+
+    #main-phrase h2{
+        font-family: "NanumSquare";
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    #main-phrase h3{
+        font-family: "NanumSquareRound";
+        font-weight: bold;
+        font-size: 15px;
+        text-align: center;
+    }
 }
 
-@media screen and (max-width: 576px)
+@media screen and (max-width: 575px)
 {
     .carousel .carousel-item {
         width: 100%;
@@ -256,7 +305,7 @@
         width: 72%;
         height: 10%;
         left : 15%;
-        top: 25%;
+        top: 30%;
         background-color: #380B61;
         padding-left: 1%;
         padding-right: 1%;
@@ -278,6 +327,20 @@
     #carouselExampleIndicators{
         height: 18em;
     }
+
+
+    #main-phrase h2{
+        font-family: "NanumSquare";
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    #main-phrase h3{
+        font-family: "NanumSquareRound";
+        font-weight: bold;
+        font-size: 15px;
+        text-align: center;
+    }
 }
 
 .logo{
@@ -298,4 +361,3 @@
     height: 20px;
     width: 20px;
 }
-
