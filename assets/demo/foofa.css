@@ -81,7 +81,7 @@
 }
 
 #main-phrase {
-    background-color: #0B0B61;
+    background-color: #0B2161;
     display: block;
     width: 100%;
     position: relative;
@@ -101,6 +101,44 @@
     font-size: 25px;
 }
 
+#main-phrase h4{
+    font-family: "NanumSquareRound";
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+div[id^="slide"]{
+    background-color: #fdfdfe;
+}
+
+div[id^="slide"] .title h3{
+    font-family: "NanumSquare";
+    font-weight: bold;
+    width: 100%;
+    line-height: 0.1em;
+    margin: 1px 0 20px;
+}
+
+div[id^="slide"] .title h3 span {
+    background:#fff;
+    padding:0 10px;
+}
+
+div[id^="slide"] .row h4 {
+    font-family: "NanumSquareRound";
+    font-size: 20px;
+}
+
+#slide01 .title h3{
+    border-bottom: 2px solid #0B6121;
+}
+
+#slide02 .title h3{
+    border-bottom: 2px solid #0000FF;
+}
+
+
 @media screen and (min-width: 1201px)
 {
 
@@ -114,7 +152,7 @@
     .carousel-caption {
         position: relative;
         width: 60%;
-        height: 22%;
+        height: 18%;
         left : 20%;
         top: 30%;
         background-color: #380B61;
@@ -132,7 +170,13 @@
     .carousel-caption h3 {
         text-align: right;
         font-size : 28px !important;
-        margin-top: 0%;
+        margin-top: -1%;
+    }
+
+    .carousel-caption h4 {
+        text-align: center;
+        font-size : 20px !important;
+        margin-top: -1%;
     }
 
     #carouselExampleIndicators{
@@ -281,6 +325,7 @@
         font-family: "NanumSquare";
         font-weight: bold;
         font-size: 20px;
+        text-align: center;
     }
 
     #main-phrase h3{
@@ -328,11 +373,11 @@
         height: 18em;
     }
 
-
     #main-phrase h2{
         font-family: "NanumSquare";
         font-weight: bold;
         font-size: 20px;
+        text-align: center;
     }
 
     #main-phrase h3{
@@ -340,6 +385,11 @@
         font-weight: bold;
         font-size: 15px;
         text-align: center;
+    }
+
+    div[id^="slide"] .row h4 {
+        font-family: "NanumSquareRound";
+        font-size: 15px;
     }
 }
 
