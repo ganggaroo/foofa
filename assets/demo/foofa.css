@@ -253,9 +253,9 @@
 
     .carousel-caption {
         position: relative;
-        width: 60%;
+        width: 72%;
         height: 15%;
-        left : 20%;
+        left : 15%;
         top: 30%;
         background-color: #380B61;
         padding-left: 1%;
@@ -270,13 +270,13 @@
     .carousel-caption h2 {
         text-align: left;
         font-size : 15px !important;
-        margin-top: -3%;
+        margin-top: -4%;
     }
 
     .carousel-caption h3 {
         text-align: right;
-        font-size : 11px !important;
-        margin-top: 0%;
+        font-size : 12px !important;
+        margin-top: -1%;
     }
 
     #carouselExampleIndicators{
