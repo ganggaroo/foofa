@@ -450,3 +450,29 @@ div[id^="slide"] .row h4 {
     font-weight: bold;
     color: #3e8acc;
 }
+
+.section-header {
+    margin-top: 20px;
+}
+
+.section-header h2 {
+    font-family: "NanumSquare";
+    color: white;
+    font-weight: bold;
+}
+
+.container .title {
+    font-family: "NanumSquare";
+    font-size : 25px;
+    style : "font-weight: bold;
+}
+
+.list-group-item {
+    font-size: 20px;
+    font-family: "NanumSquare";
+}
+
+.detail .list-group-item{
+    font-size: 17px;
+    font-family: "NanumSquareRound";
+}

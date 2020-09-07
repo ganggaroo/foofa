@@ -26,7 +26,7 @@
     </script>
 </head>
 
-<body class="index-page sidebar-collapse">
+<body class="index-page sidebar-collapse" style="background-color: whitesmoke">
 <!-- menu start -->
 <nav class="navbar navbar-custom navbar-expand-lg" id="sectionsNav">
     <div class="container">
@@ -53,25 +53,220 @@
                         <i class="material-icons">food_bank</i><b>단체식당 관리 알아보기</b>
                     </a>
                 </li>
-                <!--
-                <li class="nav-item">
-                  <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="javascript:void(0)" target="_blank" data-original-title="Follow us on Twitter" rel="nofollow">
-                    <i class="fa fa-twitter"></i>
-                  </a>
+                <li class="nav-item"style="transform: scale(1.2)">
+                    <a class="nav-link" href="contact.html">
+                        <i class="material-icons">contact_page</i><b>연락하기</b>
+                    </a>
                 </li>
-                -->
             </ul>
         </div>
     </div>
 </nav>
 <!-- menu end -->
+<!-- header start -->
+<div class="row justify-content-center"  style="margin-top: -20px;background-color: #0B2161;">
+    <div class="section-header" >
+        <h2>fooFa<i class="icon-logo-white-big"></i>&nbsp;&nbsp;식당 관리</h2>
+    </div>
+</div>
+<!-- header end -->
 <!-- 일반식당관리 - 일반설명 start-->
 <div class="section">
     <div class="container">
-
+        <div class="title">
+            본 서비스를 이용하시면.
+        </div>
+        <ul class="list-group">
+            <li class="list-group-item py-3" ng-repeat="i in filters">
+                식당, 카페, 바 등 모든 업소에서 간편하게 메뉴를 등록할 수 있습니다.
+            </li>
+            <li class="list-group-item py-3" ng-repeat="i in filters">
+                제공하는 템플릿 중에 마음에 드는 템플릿을 선택할 수 있습니다.
+            </li>
+            <li class="list-group-item py-3" ng-repeat="i in filters">
+                여러분이 원하는 디자인으로 메뉴판을 구성할 수 있습니다.
+            </li>
+            <li class="list-group-item py-3" ng-repeat="i in filters">
+                쉽게 출력할 수 있어서 메뉴관리가 아주 심플합니다.
+            </li>
+            <li class="list-group-item py-3" ng-repeat="i in filters">
+                메뉴등록 - 템플릿 선택 - 메뉴판 디자인 - 출력 순으로  쉽게할 수 있습니다.
+            </li>
+            <li class="list-group-item py-3" ng-repeat="i in filters">
+                <a class="service-link" href="http://foofa.paas-ta.org/"><i class="icon-logo"></i>푸파 서비스 이용하기</a>
+            </li>
+        </ul>
+    </div>
+    <div class="container">
+        <hr class="mt-5 mb-5">
     </div>
 </div>
 <!-- 일반식당관리 - 일반설명 end -->
+<!-- 일반식당관리 - 메뉴등록 프로세스 start-->
+<div class="section" style="margin-top: -150px;">
+    <div class="container">
+        <div class="title">
+            1. 간편하게 메뉴를 등록합니다.
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="assets/img/foofa_slide_01_02.png" alt="식당관리 메뉴등록" class="rounded img-thumbnail" style="margin: 10px;">
+            </div>
+            <div class="col-md-6">
+                <ul class="list-group detail">
+                    <li class="list-group-item py-2">
+                        <i class="material-icons" style="margin-right: 5px">arrow_right</i><b>카테고리 별 메뉴가 나열</b>되서 쉽게 확인할 수 있습니다.
+                    </li>
+                    <li class="list-group-item py-2">
+                        <i class="material-icons" style="margin-right: 5px">arrow_right</i>이벤트를 진행하여&nbsp; <b>할인가격을 입력</b> 할 수 있습니다.
+                    </li>
+                    <li class="list-group-item py-2">
+                        <i class="material-icons" style="margin-right: 5px">arrow_right</i>팝업창을 통해 메뉴를&nbsp; <b>영어, 일본어, 중국어로 번역</b>이 됩니다.
+                    </li>
+                    <li class="list-group-item py-2">
+                        <i class="material-icons" style="margin-right: 5px">arrow_right</i>필요하다면 간편하게&nbsp; <b>음식 사진을 등록</b> 할 수 있습니다.
+                    </li>
+                    <li class="list-group-item py-2">
+                        <i class="material-icons" style="margin-right: 5px">arrow_right</i><b>신규메뉴, 인기메뉴, 맵기등 표시</b>할 수 있습니다.
+                    </li>
+                    <li class="list-group-item py-2">
+                        <i class="material-icons" style="margin-right: 5px">arrow_right</i>여러가지 메뉴에 대한  설명을 추가 할 수 있습니다.
+                    </li>
+                    <li class="list-group-item py-2">
+                        <i class="material-icons" style="margin-right: 5px">arrow_right</i>고객에게 필요한 여러가지 음식 정보를 입력할 수 있습니다.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 일반식당관리 - 메뉴등록 프로세스 end-->
+<div class="container">
+    <hr class="mt-5 mb-5">
+</div>
+<!-- 일반식당관리 - 템플릿 선택 프로세스 start-->
+<div class="section" style="margin-top: -80px;">
+    <div class="container">
+        <div class="title">
+            2. 마음에 드는 템플릿 을 선택하세요.
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="assets/img/foofa_general_02_01.png" alt="식당관리 템플릿 선택" class="rounded img-thumbnail" style="margin: 10px;">
+            </div>
+            <div class="col-md-6">
+                <ul class="list-group detail" >
+                    <li class="list-group-item py-2">
+                        <i class="material-icons" style="margin-right: 5px">arrow_right</i><b>메뉴판의 기본이 되는 템플릿</b>이 많이 있고 지속적으로 추가됩니다.
+                    </li>
+                    <li class="list-group-item py-2">
+                        <i class="material-icons" style="margin-right: 5px">arrow_right</i><b>원하는 사이즈, 모양에 따라 선택</b>&nbsp;할 수 있습니다.
+                    </li>
+                    <li class="list-group-item py-2">
+                        <i class="material-icons" style="margin-right: 5px">arrow_right</i>원하시는 디자인이나 템플릿이 있다면 문의 하시기 바랍니다.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 일반식당관리 - 템플릿 선택 프로세스 end-->
+<div class="container">
+    <hr class="mt-5 mb-5">
+</div>
+<!-- 일반식당관리 - 메뉴 디자인 프로세스 start-->
+<div class="section" style="margin-top: -80px;">
+    <div class="container">
+        <div class="title">
+            3. 원하는 형태로 디자인합니다.
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="assets/img/foofa_general_03_01.png" alt="식당관리 템플릿 선택" class="rounded img-thumbnail" style="margin: 10px;">
+            </div>
+            <div class="col-md-6">
+                <ul class="list-group detail" >
+                    <li class="list-group-item py-2">
+                        <i class="material-icons" style="margin-right: 5px">arrow_right</i>선택한 템플릿을 바탕으로 메뉴판 디자인을 합니다.
+                    </li>
+                    <li class="list-group-item py-2">
+                        <i class="material-icons" style="margin-right: 5px">arrow_right</i><b>메뉴명, 가격, 이미지 등을 마우스로 원하는 위치에 배치</b>합니다.
+                    </li>
+                    <li class="list-group-item py-2">
+                        <i class="material-icons" style="margin-right: 5px">arrow_right</i>글씨체, 사이즈, 정렬등 다양한 옵션이 있습니다.
+                    </li>
+                    <li class="list-group-item py-2">
+                        <i class="material-icons" style="margin-right: 5px">arrow_right</i><b>외국어(영어, 일본어, 중국어)로 표시</b>할 수 있습니다.
+                    </li>
+                    <li class="list-group-item py-2">
+                        <i class="material-icons" style="margin-right: 5px">arrow_right</i>미리보기를 통하여 메뉴판을 미리 확인하세요.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 일반식당관리 - 메뉴 디자인 프로세스 end-->
+<div class="container">
+    <hr class="mt-5 mb-5">
+</div>
+<!-- 일반식당관리 - 미리보기 pdf 추출 start-->
+<div class="section" style="margin-top: -80px;">
+    <div class="container">
+        <div class="title">
+            4. 미리보고 pdf 형태로 추출합니다.
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="assets/img/foofa_general_04_01.png" alt="식당관리 템플릿 선택" class="rounded img-thumbnail" style="margin: 10px;">
+            </div>
+            <div class="col-md-6">
+                <ul class="list-group detail" >
+                    <li class="list-group-item py-2">
+                        <i class="material-icons" style="margin-right: 5px">arrow_right</i><b>프린트 할 떄와 동일한 디자인</b>으로 보여집니다.
+                    </li>
+                    <li class="list-group-item py-2">
+                        <i class="material-icons" style="margin-right: 5px">arrow_right</i><b>줄 간격이나 위치를 이동</b>&nbsp;을 할 수 있습니다.
+                    </li>
+                    <li class="list-group-item py-2">
+                        <i class="material-icons" style="margin-right: 5px">arrow_right</i>완료하면 &nbsp;<b>pdf 파일의 메뉴판</b>을 다운로드 합니다.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 일반식당관리 - 미리보기 pdf 추출 end-->
+<div class="container">
+    <hr class="mt-5 mb-5">
+</div>
+<!-- 일반식당관리 - 출력물 start-->
+<div class="section" style="margin-top: -80px;">
+    <div class="container">
+        <div class="title">
+            5. pdf 파일로 메뉴를 출력합니다.
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="assets/img/foofa_general_05_01.png" alt="식당관리 템플릿 선택" class="rounded img-thumbnail" style="margin: 10px;">
+            </div>
+            <div class="col-md-6">
+                <ul class="list-group detail" >
+                    <li class="list-group-item py-2">
+                        <i class="material-icons" style="margin-right: 5px">arrow_right</i>바로 출력하여 사용하시면 됩니다.
+                    </li>
+                    <li class="list-group-item py-2">
+                        <i class="material-icons" style="margin-right: 5px">arrow_right</i>변경 시마다 새로 출력하셔서 꺠끗하게 사용하세요.
+                    </li>
+                    <li class="list-group-item py-2">
+                        <i class="material-icons" style="margin-right: 5px">arrow_right</i>여러가지 활용분야가 많습니다.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 일반식당관리 - 출력물 end-->
 <footer class="footer" data-background-color="black">
     <div class="container">
         <nav class="float-left">
