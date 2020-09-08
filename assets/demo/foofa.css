@@ -357,10 +357,10 @@ div[id^="slide"] .row h4 {
 
     .carousel-caption {
         position: relative;
-        width: 80%;
+        width: 90%;
         height: 15%;
-        left : 11%;
-        top: 30%;
+        left : 5%;
+        top: 25%;
         background-color: #380B61;
         padding-left: 1%;
         padding-right: 1%;
@@ -400,6 +400,21 @@ div[id^="slide"] .row h4 {
     div[id^="slide"] .row h4 {
         font-family: "NanumSquareRound";
         font-size: 15px;
+    }
+
+    .section-header h2 {
+        font-size: 25px;
+    }
+
+    .section-header .icon-logo-white-big {
+        background : url("../img/foofa_icon_white_big.png");
+        background-size: cover;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 20px;
+        margin-top: -20px;
+        height: 40px;
+        width: 40px;
     }
 }
 
