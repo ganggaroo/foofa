@@ -1,6 +1,9 @@
 @import url('https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
 @import url('https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css');
+/**
 @import url('http://fonts.googleapis.com/earlyaccess/nanumbrushscript.css');
+*/
+
 /*
  NanumSquareRound
  NanumSquare
@@ -155,7 +158,33 @@ div[id^="slide"] .row h4 {
     z-index: 99999;
 }
 
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    z-index: 99999;
+}
 
+.back-to-top i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    background: #e96b56;
+    color: #fff;
+    transition: all 0.4s;
+}
+
+.back-to-top i:hover {
+    background: #e6573f;
+    color: #fff;
+}
 @media screen and (min-width: 1201px)
 {
 
