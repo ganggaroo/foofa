@@ -32,19 +32,19 @@
 }
 
 .carousel .carousel-item:first-of-type {
-    background-image: url("../img/foofa_slide_01.png");
+    background-image: url("../img/foofa_slide_01.jpg");
 }
 
 .carousel .carousel-item:nth-of-type(2) {
-    background-image: url("../img/foofa_slide_02.png");
+    background-image: url("../img/foofa_slide_02.jpg");
 }
 
 .carousel .carousel-item:nth-of-type(3) {
-    background-image: url("../img/foofa_slide_03.png");
+    background-image: url("../img/foofa_slide_03.jpg");
 }
 
 .carousel .carousel-item:last-of-type {
-    background-image: url("../img/foofa_slide_04.png");
+    background-image: url("../img/foofa_slide_04.jpg");
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
