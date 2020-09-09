@@ -148,6 +148,13 @@ div[id^="slide"] .row h4 {
     border-bottom: 3px solid #FFFF00;
 }
 
+.kakaotalk-chat {
+    position: fixed;
+    left: 1%;
+    bottom: 10px;
+    z-index: 99999;
+}
+
 
 @media screen and (min-width: 1201px)
 {
